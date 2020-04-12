@@ -44,10 +44,10 @@ function reduceToAllTrue(array, startingpointvalue = true){
   return total
 }
 
-function reduceToAllTrue(array, startingpointvalue = true){
+function reduceToAnyTrue(array, startingpointvalue = true){
   let total = Boolean(startingpointvalue)
   for(const bool of array){
-    total = total && Boolean(bool);
+    total = total ||Boolean(bool);
   }
   return total
 }
