@@ -1,5 +1,5 @@
 // Your code here
-function mapToNegative(array){
+function mapToNegativize(array){
   for(let num of array){
     num *= -1
   }
