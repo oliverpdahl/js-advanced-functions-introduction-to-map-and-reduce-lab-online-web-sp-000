@@ -28,4 +28,10 @@ function mapToSquare(array){
 }
 
 //reduce Methods
-function 
+function reduceToTotal(array){
+  let total = 0
+  for(const num of array){
+    total += num
+  }
+  return total
+}
