@@ -1,7 +1,8 @@
 // Your code here
 function mapToNegativize(array){
-  let newArray = [...array]
-  for(let num of newArray){
-    num *= -1
+  let newArray = []
+  for(let num of array){
+    newArray.push(num*-1)
   }
+  return newArray
 }
