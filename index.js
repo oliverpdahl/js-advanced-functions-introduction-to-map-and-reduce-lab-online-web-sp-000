@@ -36,7 +36,7 @@ function reduceToTotal(array, startingpoint = 0){
   return total
 }
 
-function reduceToTotal(array, startingpointvalue = true){
+function reduceToAllTrue(array, startingpointvalue = true){
   let total = true
   for(const bool of array){
     total = total && bool
