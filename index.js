@@ -18,3 +18,11 @@ function mapToDouble(array){
   }
   return newArray
 }
+
+function mapToDouble(array){
+  let newArray = []
+  for(const num of array){
+    newArray.push(num*2)
+  }
+  return newArray
+}
