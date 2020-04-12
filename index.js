@@ -22,7 +22,10 @@ function mapToDouble(array){
 function mapToSquare(array){
   let newArray = []
   for(const num of array){
-    newArray.push(num**2)
+    newArray.push(num ** 2)
   }
   return newArray
 }
+
+//reduce Methods
+function 
