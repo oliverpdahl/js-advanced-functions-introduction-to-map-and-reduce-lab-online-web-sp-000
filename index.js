@@ -12,7 +12,7 @@ function mapToNoChange(array){
 }
 
 function mapToDouble(array){
-  newArray = []
+  let newArray = []
   for(const num of array){
     newArray.push(num*2)
   }
