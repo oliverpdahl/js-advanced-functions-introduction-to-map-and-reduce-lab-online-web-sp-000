@@ -10,3 +10,11 @@ function mapToNegativize(array){
 function mapToNoChange(array){
   return array
 }
+
+function mapToDouble(array){
+  newArray = []
+  for(const num of array){
+    newArray.push(num*2)
+  }
+  return newArray
+}
